@@ -3,4 +3,6 @@ all:
   hosts:
     host:
       ansible_host: localhost
+      ansible_port: 4622
       ansible_private_key_file: ~/.ssh/id_rsa
+      ansible_python_interpreter: "/usr/libexec/platform-python"
